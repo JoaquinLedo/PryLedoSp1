@@ -68,6 +68,7 @@ namespace PryLedoSp1
             {
                 Txt.Text += swCrearArchivo.ReadLine();
             }
+            swCrearArchivo.Close();
         }
     }
 }
